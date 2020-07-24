@@ -1,0 +1,70 @@
+@import url('https://rsms.me/inter/inter.css');
+
+*{
+    font-family: 'Inter';
+}
+
+.Heading_Container{
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.TextHeader{
+    padding: 5% 0% 2% 0%;
+    font-weight: bold;
+}
+
+.customInput {
+    border: 2px solid #f9f9f9;
+    border-radius: 25px;
+    padding: 22px;
+    background-color: #f9f9f9;    
+    outline: none;
+    margin-bottom: 1%;
+    font-size: 12px;
+}
+
+.customTextArea{
+    border: 2px solid #f9f9f9;
+    border-radius: 25px;
+    background-color: #f9f9f9;    
+    outline: none;
+    margin-bottom: 2%;
+    padding-left: 22px;
+    font-size: 12px;
+    resize: none;
+}
+
+.CustomButton{
+    background-color: #F7921E;
+    color: white;
+    padding: 0.7%;
+    border: 2px solid #F7921E;
+    border-radius: 100px;
+    outline: none;
+}
+
+@media (max-width : 576px){
+    h1{
+        font-size: 28px !important;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+} 
+
+@media (max-width: 400px){
+    .Custom_H5{
+        font-size: medium;
+    }
+}
+
+
+@media (max-width: 576px){
+.CustomButton{
+        padding: 3%;
+    }
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+      <div class="container">
+        <div class="banner">
+        <nav class="navbar navbar-expand-lg">
+       <a class="navbar-brand mt-3" href="#">  <img src="./assets/logo black.svg" class=""></a>
+       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon mt-4 "><img src="./assets/icons8-menu.svg" style="width: 15px;" alt=""></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav mt-3">
+          
+           <li class="nav-item ">
+             <a class="nav-link ml-4res" href="PrivacyPolicy.html" style="color: black;"><b>About</b></a>
+           </li>
+           <li class="nav-item ml-4">
+             <a class="nav-link" href="FAQ.html" style="color: black;"><b>FAQ</b></a>
+           </li>
+           <li class="nav-item ml-4">
+             <a class="nav-link" href="GetInTouch.html" style="color: black;"><b>Get in touch</b></a>
+           </li>
+          
+         </ul>
+           <ul class="navbar-nav ml-auto mt-3">
+          
+           <li class="nav-item ml-2">
+         <div class="dropdown">
+           <button  style="color: black; border:1px solid #DCDCDC; border-radius: 30px; background: transparent;font-weight: bold;" class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Pound Sterling
+           </button>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <a class="dropdown-item" href="#">Action</a>
+             <a class="dropdown-item" href="#">Another action</a>
+             <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+           </div>
+           </li>
+           <li class="nav-item ml-2">
+         <div class="dropdown">
+           <button style="color: black;    border: 1px solid #DCDCDC;
+           border-radius: 40px;
+           padding-right: 10px;
+           padding-left: 10px; background: transparent;font-weight: bold;" class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             en
+           </button>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <a class="dropdown-item" href="#">Action</a>
+             <a class="dropdown-item" href="#">Another action</a>
+             <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+           </div>
+           </li>
+           <li class="nav-item ml-2">
+             <a class="nav-link" href="#"><img src="./assets/instagram.svg" class="mtneg-8 img-fluid" ></a>
+           </li>
+           <li class="nav-item ml-2">
+             <a class="nav-link" href="#"><img src="./assets/twitter.svg" class="img-fluid mtneg-8"></a>
+           </li>
+        
+         </ul>
+       </div>
+     </nav>
+     </div>
+       </div>
+     
+     
+     
+        <!-- header image and maldives picture -->
+        <header class="masthead">
+            <div class="container h-100 ">
+              <div class="row align-items-center ">
+                <div class="col-lg-6 col-sm-12 text-left mt-5">
+                    <span  class="bg-semitrans" href=''><img style="width: 15px;" src="./assets/barrow.svg" onclick="window.history.back();"></span>
+                    <text class="f-14" style="color:white;">Go back</text>
+                  <h1 id="CityName" class="mt-5"  style="color: white;"><strong>Maldives</strong></h1>
+                  <p id="Description" class="f-14 mt-3" style="color:white; font-size: 14px;">The Maldives officially the Republic of Maldives, is a small island nation in South Asia, located in the Arabian Sea of the Indian Ocean.</p>
+                </div>
+                
+              </div>
+              <div class="row">
+                  <div class="col-6"></div>
+                <div class="col-lg-6 col-sm-12 mt-10" >
+                  <div class=" pl-4 pr-4" style=" background: white; border: 1px solid #E5E5E5; border-radius:12px;">
+                    <div class="row">
+                        <div class="col-lg col-sm-6">
+                            <div class=" mt-4 border" style=" background:#F9F9F9; border-radius: 50px;"> 
+                                <p class=" ml-2 f-14 color-grey pt-2" style="margin-bottom: 0px!important;">Departure</p>
+                                <div class="d-flex">
+                                <select id="selecttest" class="js-example-basic-multiple" name="states[]"  style="width: 75%">
+                                    <!-- <option value="AL" >London</option>
+                                    <option value="PA" >Paris</option>
+                                    <option value="NY" >New york</option>
+                                    <option value="FF" >Frankfurt</option> -->
+                     
+                                  </select>                               
+                                    <span style="border:0px; background:#F9F9F9; " class="input-group-text"><img src="./assets/departures 1.svg"></span>
+                                  </div>
+                            </div><br>            
+                        </div>
+                        <div class="col-lg col-sm-6">
+                          <div class="d-flex justify-content-start mt-4  bg-grey br-100  " style="padding-top: 15px;padding-bottom: 15px;" >
+                            <input type="text"        style=" background:transparent;color:#A8A8A8;   border: 0px solid lightgray;" class=" pt-2 form-control form-style1 f-14" id="dater"  data-toggle="modal" data-target="#exampleModalCenter" placeholder="Depart">
+                            <input type="text" class="form-control form-style1 f-14 pt-2"     placeholder="Return" id="dater1" style="color:#A8A8A8;background:transparent;   border: 0px solid lightgray;"data-toggle="modal" data-target="#exampleModalCenter">
+                            <img src="./assets/calendar.svg"  class="pr-4 ml-1">
+                      
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            
+                            <text class="text-muted">Date</text><br>
+                            <p class="f-24"><strong id="Dates_">Choose Date</strong></p>
+                           <!-- <a  class="f-14" style="color: #2D4A7B" href=""><strong> See other dates</strong></a>  -->
+                            
+                        </div>
+                        <div class=" col-md-4">
+                            <div class="d-flex">
+                                <span>
+                                    <text class="text-muted">Flight price</text><br>
+                                    <p class="f-24"><strong id="Price_"></strong></p>
+                                  </span>
+                              </div> 
+                         
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn border m-button pt-3 pb-3 " style="background-color:#F7921E;color:white; border-radius: 100px; width: 100%;">Book Now</button> 
+
+                        </div>
+                    </div><hr><br>
+                  
+                  <div class="row" >
+                    <div class="col-8">
+                      <p class="f-14 color-grey"> Upcoming days weather temprature </p>
+
+                    <div id="owl-21" class="owl-carousel owl-theme ">
+                    </div>
+                  </div>
+                  <div class="col-4" style="border-left: 1px  solid ; border-left-color:#E5E5E5 ;">
+                   <p class="f-14 color-grey">daily temprature</p> 
+
+                    <figure class="figure">
+                        <img id="WeatherImage" src="./assets/sun.png" class="figure-img" style="width:45px; height:45px;">
+                        <figcaption class="figure-caption mlpx-5">
+                          <br><text class="f-14"><strong id="WeatherTemp" >30 C</strong></text><br>
+                             <text class="text-muted f-10" id="WeatherDate">02 TUE</text>
+                        </figcaption>
+                    </figure>
+                </div>
+                    
+                    
+                  </div>
+                  </div>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12 mt-5">
+
+                         
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+          </header>
+
+          <!-- tours and maps -->
+          
+              <div class="container mt-res1 m-tours">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6  mt-5">
+                        <h3><strong>Looking for tours? We got you.</strong></h3>
+                        <div class="row mt-3">
+                           <div class="col-12 col-sm-12 col-sm-6 col-md-12 col-lg-6">
+                            <div id="viator1" data-vi-partner-id="" data-vi-language="en" data-vi-currency="GBP" data-vi-partner-type="TRAVEL_AGENT" data-vi-url="https://www.viator.com/Rome/d511-ttd" data-vi-total-products="3"></div>
+                           </div>
+                           <div class=" col-12 col-sm-12 col-md-12 col-lg-6 ">
+                            <div id="viator2" data-vi-partner-id="P00029991" data-vi-language="en" data-vi-currency="GBP" data-vi-partner-type="TRAVEL_AGENT" data-vi-url="https://www.viator.com/Rome/d511-ttd" data-vi-total-products="3"></div>
+
+                           </div>
+                        </div>
+                      
+                       
+                    </div>
+                    <div class="col-lg-6 col-sm-12 col-md-12 col-lg-6   mt-auto "  >
+                      <div class="row mx-auto">
+                        <iframe style="border-radius: 12px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d435521.4079239993!2d74.0542001338166!3d31.48263523074283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Punjab!5e0!3m2!1sen!2s!4v1592260374624!5m2!1sen!2s" width="632" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                      </div>
+
+
+                      
+                    </div>
+                </div>
+              </div>
+        
+              <section>
+             <div class="container d-flex mt-5 discover ">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 text-left align-self-center  ">
+                        <h1 class="font-weight-light abc">Discover 1000+ amazing accomodation in Maldives</h1>
+                        <button class="btn border m-button pt-3 pb-3 " style="background-color:#F7921E;color:white; border-radius: 100px; width: 30%;">Discover</button> 
+                      </div>
+                    <div class="col-lg-6 col-sm-12 text-center mt-3">
+                      <img src="./assets/book.png" class="img-fluid">
+                    
+                    </div>
+                    </div>
+            </div>
+          </section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content" style="border-radius: 12px;">
+        <div class="modal-header">
+          <h3 class="modal-title" id="exampleModalLongTitle"><strong>Select Dates</strong></h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="ModalDiv" class="modal-body">
+                <div id="DepartDates" class="d-flex flex-row bd-highlight text-center">
+                    <div class="p-3 w-120 border-right bd-highlight text-muted rounded f-14">Departure</div>
+              </div>    
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="LoadingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+    <div class="modal-content" style="border-radius:25px;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="./assets/14494-plane-flying 1.png" class="img-fluid w-50  " alt="">
+        <h4 class="text-center mt-2"><strong>Fetching Data From Server...</strong></h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+         
+
+      <div class="container-fluid mt-5 mt-res2 mb-5 " style="background-color: #DBF2FB;height: 465px;">
+	<div class="row">
+		<div class="col-sm-12 text-center  ">
+			<h2 class="text-center mbl-h2 mbl-h1" style="margin-top: 90px;"><strong>Subscribe for early access to our last<br>minute cheap sunny holiday deals</strong></h2>
+			<input type="email" name="email" placeholder=" Enter your e-mail address" class="mt-5 pt-3 pb-3 w-530" style="    border: 1px solid lightgrey;
+    border-radius: 100px;" /> <br>
+			<button class="btn  mt-3 w-530 pb-3 pt-3" style="background-color:#F7921E;color: white; border-radius: 100px;">Subscribe</button>
+		</div>
+	</div>
+</div>
+        <div class="container mt-res2">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <img src="./assets/newsletter1.svg" class="img-fluid image1"  />
+                </div>
+                <div class="col-sm-6 text-center">
+                    <img src="./assets/newsletter2.svg" class="img-fluid image2" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" style="margin-top: 70px;">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="./assets/logo_black.svg" class="img-fluid ">
+                </div>
+                <div class="col-sm-6 text-right">
+                <p>Get in touch <img src="./assets/instagram.svg" class="img-fluid ml-3 " /> <img src="./assets/twitter.svg" class="img-fluid ml-3">
+                </p>
+                </div>
+            </div>
+         </div>
+        
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <footer>
+                    <div class="footer-copyright text-left py-3">©️ 2020 The Sun Holidays. All rights reserved.
+          </div>
+        </footer>
+                </div>
+            </div>
+        </div>
+
+         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- <script async src="https://www.viator.com/orion/partner/widget.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+   <script>
+	$(() => {
+    $('#LoadingModal').modal('show');
+    function formatState (state) {
+    if (!state.id) {
+      return state.text;
+    }
+    var baseUrl = "./assets/";
+    var $state = $(
+      '<span class="d-flex flex-row justify-content-between">' + state.text + '<img src="' + baseUrl + '/' +'ic_outline-location-on' + '.svg" class="img-fluid ml-auto " /> </span>'
+    );
+    return $state;
+  };
+
+      $('.js-example-basic-multiple').select2({
+      placeholder:"London",
+      templateResult: formatState,
+      width: 'resolve',
+    });
+
+  let city = window.location.href;
+  city = city.split('=');
+  city = city[1];
+
+  $.get('http://localhost:8000/thesunholidays/DetailApi?city=' + city).then((response) => {
+    
+    response = response.data;
+
+    $('#Description').html(response.Description);
+    $('#CityName').html(response.CityName);
+
+    $('#viator1').attr('data-vi-url', response.Viator_Link);
+    $('#viator2').attr('data-vi-url', response.Viator_Link);
+
+    var viatorScript = document.createElement('script');
+    viatorScript.src = 'https://www.viator.com/orion/partner/widget.js';
+    $('Body').append(viatorScript);
+
+    Cities = response.Cities;
+
+    (Cities).map((city) => {
+      $('#selecttest').append($('<option>', { value: city, text: city }));
+    });
+
+    Dates = response.Dates;
+    All_Dates = Object.keys(Dates)
+
+    for(var i = 0 ; i<All_Dates.length ; i++)
+      $('#DepartDates').append('<div class="p-3 w-120 border-right bd-highlight box-bg rounded f-14 "><strong id="'+ i +'s">'+ All_Dates[i] +'</strong></div>');
+
+
+    for(var i = 0 ; i < All_Dates.length ; i++ )
+    {
+      var NewDiv = document.createElement('div');
+      NewDiv.className = 'd-flex flex-row bd-highlight  text-center';
+
+      NewDiv.innerHTML = '<div class="p-3 w-120 border-right bd-highlight box-bg rounded f-14"><strong>'+ All_Dates[i] +'</strong></div>';
+
+      innerDates = Dates[All_Dates[i]]
+
+      for(var j=0 ; j < innerDates.length ; j++)
+        NewDiv.innerHTML += '<div class="p-2 w-120 border-right bd-highlight  rounded f-14"><button id="'+ j +'" onclick="SelectedItem(this)" style="background-color: transparent; border-color:transparent"><strong>'+ innerDates[j] +' Return</strong></button></div>';
+      
+      $('#ModalDiv').append(NewDiv);
+    }
+
+    $('#LoadingModal').modal('hide');
+
+  }).fail((err) => {
+    alert('There was a problem');
+  });
+
+  $.get('https://api.openweathermap.org/data/2.5/onecall?lat=33.441792&lon=-94.037689&exclude=minutely,hourly&units=metric&appid=950caf25a24f9b70779b4e95d5998ab5').then((response) => {
+      dates_list = response.daily;
+
+      Current = dates_list[0];
+      unix_date = Current.dt;
+      milliseconds = unix_date * 1000;
+      dateObject = new Date(milliseconds);
+      Temp = Current.temp;
+      Date_ = (dateObject.toLocaleString("en-US", { day: "numeric" })) // 9
+      Day = ((dateObject.toLocaleString("en-US", { weekday: "long" }).slice(0, 3))) // Monday
+      Temp = parseInt(Temp.max)
+      Rain = Current.rain
+
+      if (!Rain) Rain = 0;
+
+      if (Rain <= 8.0)
+        $('#WeatherImage').attr('src', './assets/sun.png');
+      else
+        $('#WeatherImage').attr('src', './assets/rainy-day.png');
+
+      $('WeatherTemp').html(Temp + ' C')
+      $('WeatherDate').html(Date_ + ' ' + Day);
+
+      dates_list.map((daily) => {
+        unix_date = daily.dt;
+
+        milliseconds = unix_date * 1000;
+        dateObject = new Date(milliseconds);
+
+        Temp = daily.temp;
+
+        Date_ = (dateObject.toLocaleString("en-US", { day: "numeric" })) // 9
+        Day = ((dateObject.toLocaleString("en-US", { weekday: "long" }).slice(0, 3))) // Monday
+        Temp = parseInt(Temp.max)
+
+        Rain = daily.rain
+
+        if(!Rain) Rain = 0;
+
+        if(Rain <= 8.0)
+          image = 'sun';
+        else
+          image = 'rainy-day'
+
+        weatherDiv = '<div class="item" >\
+          <figure class="figure" >\
+            <img src="./assets/'+ image +'.png" class="figure-img" style="width:45px; height:45px;">\
+              <figcaption class="figure-caption mlpx-5">\
+                <br><text class="f-14"><strong>'+ Temp +' C</strong></text><br>\
+                  <text class="text-muted f-10">'+ Date_ + ' '+Day+'</text>\
+                          </figcaption>\</figure></div>';
+
+          $('#owl-21').owlCarousel('add', weatherDiv).owlCarousel('update');
+      });
+    });
+
+    $('#owl-21').owlCarousel({
+      rtl: false,
+      loop: true,
+      nav: true,
+      navText: ["<span class=''><img src='./assets/vector7.png' class='img-fluid'></span>", "<span class=''><img src='./assets/vector8.png' class='img-fluid'></span>"],
+      responsive: {
+        0: {
+          items: 3,
+
+        },
+        600: {
+          items: 5
+        },
+        1000: {
+          items: 5
+        }
+      }
+    });
+});
+
+  SelectedItem = (item) => {
+    Departure = (($(item).parent("div").parent("div").find(".box-bg").find("strong").html()));
+
+    ButtonId = $(item).attr('id');
+    Return = ButtonId + 's';
+    Return = ($('#' + Return).html());
+
+    $('#Dates_').html(Return + ' - ' + Departure);
+    $('#Price_').html(($(item).children().html()));
+    $('#exampleModalCenter').modal('hide');
+
+  }
+
+   </script>
+
+    </body>
+
+</html>

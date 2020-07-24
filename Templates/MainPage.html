@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Main Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/mainpage.css">
+  <link rel="stylesheet" href="./assets/css/datepicker.min.css">
+
+</head>
+<body>
+	<div class="container">
+	 <div class="banner">
+   <nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand mt-3" href="#">  <img src="./assets/logo black.svg" class=""></a>
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon mt-4 "><img src="./assets/icons8-menu.svg" style="width: 15px;" alt=""></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mt-3">
+     
+      <li class="nav-item ">
+        <a class="nav-link ml-4res" href="PrivacyPolicy.html" style="color: black;"><b>About</b></a>
+      </li>
+      <li class="nav-item ml-4">
+        <a class="nav-link" href="FAQ.html" style="color: black;"><b>FAQ</b></a>
+      </li>
+      <li class="nav-item ml-4">
+        <a class="nav-link" href="GetInTouch.html" style="color: black;"><b>Get in touch</b></a>
+      </li>
+     
+    </ul>
+      <ul class="navbar-nav ml-auto mt-3">
+     
+      <li class="nav-item ml-2">
+		<div class="dropdown">
+			<button  style="color: black; border:1px solid #DCDCDC; border-radius: 30px; background: transparent;font-weight: bold;" class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Pound Sterling
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			  <a class="dropdown-item" href="#">Action</a>
+			  <a class="dropdown-item" href="#">Another action</a>
+			  <a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		  </div>
+      </li>
+      <li class="nav-item ml-2">
+		<div class="dropdown">
+			<button style="color: black;    border: 1px solid #DCDCDC;
+			border-radius: 40px;
+			padding-right: 10px;
+			padding-left: 10px; background: transparent;font-weight: bold;" class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  en
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			  <a class="dropdown-item" href="#">Action</a>
+			  <a class="dropdown-item" href="#">Another action</a>
+			  <a class="dropdown-item" href="#">Something else here</a>
+			</div>
+		  </div>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link" href="#"><img src="./assets/instagram.svg" class="mtneg-8 img-fluid" ></a>
+      </li>
+      <li class="nav-item ml-2">
+        <a class="nav-link" href="#"><img src="./assets/twitter.svg" class="img-fluid mtneg-8"></a>
+      </li>
+   
+    </ul>
+  </div>
+</nav>
+</div>
+	</div>
+
+
+
+
+
+<div class="container mt-100 text-center">
+  <div class="row">
+    <div class="col-sm-12 ">
+		
+      <h1 class="mbl-h1" ><strong>Where is hot now</strong> </h1>
+	  <h5 class="mbl-h3"><strong>Find your next sun-filled holiday</strong></h5>
+
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+	<div class="flex-container flex-row ">
+
+		<div class=" my-auto   bg-grey br-100 flexbasis-24 "  >
+
+			<p  class="f-14 pl-4 pt-2  "  style="color:#A8A8A8;margin-bottom: 0px!important;">Departing from</p>
+			
+
+		<div class="d-flex pl-3 justify-content-between pb-2  " >
+
+			<select id="selecttest" class="js-example-basic-multiple" name="states[]"  style="width: 100%">
+				<!-- <option value="AL" >London</option>
+				<option value="PA" >Paris</option>
+				<option value="NY" >New york</option>
+				<option value="FF" >Frankfurt</option> -->
+ 
+			  </select>
+			  <img src="./assets/departure_1.svg" class="pr-3" > 
+			</div>
+
+		
+	</div>
+
+	<div class=" my-auto  mbl-mt15 flexbasis-33 "    >
+		<div class="d-flex justify-content-start bg-grey br-100   "  >
+			<input type="text"        data-language='en' style=" color:#A8A8A8;padding-top: 21px;padding-bottom: 21px;" class="form-control form-style1 f-14 bg-grey br-100" id="dater" placeholder="Departure">
+			<input type="text" class="form-control form-style1 f-14 bg-grey br-100 ml-1" data-language='en'   placeholder="Return" id="dater1" style="color:#A8A8A8;">
+			<img src="./assets/calendar.svg"  class="pr-4 ml-1">
+
+		</div>
+
+	</div>
+
+	<div class=" mbl-mt15 my-auto flexbasis-33  "   >
+		<select class="holiday-dropdown mr-1 f-14 ml-1"  style=" color:#A8A8A8;padding-left:6px; border:0;border-radius: 100px;    background: #F9F9F9; width: 100%; padding-top: 20px;padding-bottom:20px;" placeholder="Type of holidays">
+			<option value="" disabled selected>Type of Holidays</option>
+
+			<option> <a class="dropdown-item" href="#">Action</a></option>
+			<option> <a class="dropdown-item" href="#">Action</a></option>
+             <option> <a class="dropdown-item" href="#">Action</a></option>
+
+		  </select>
+		
+	
+		  </div>
+
+		  <div class="flexbasis-10"  >
+			<button type="'button" class="btn " style="background-color: #F7921E; border-radius: 100px; width:100% ;  color: white;padding-top: 15px;padding-bottom:15px;">Search</button>
+		  </div>
+
+	</div>	
+
+</div>
+
+<div class="container mt-70">
+	<div class="row ">
+		<div class="col-sm-6">
+			<h2 class="mbl-h3"><strong>Top holiday destinations</strong></h2>	
+		</div> <!-- onclick="ViewAll()" -->
+		<div class="col-sm-6 my-auto text-right mbl-ptext"><p class="my-auto"><a href="ViewAll.html" class="color-link"> <strong>View All</strong></a></p></div>
+	</div>
+	<div id="owl-one" class="owl-carousel owl-theme mt-5">
+	</div>
+</div>
+
+
+<div class="container mt-70">
+	<div class="row mt-5">
+		<div class="col-sm-12 "><h2 class="mbl-h3"><strong>Browse by holiday type</strong></h2></div>
+	</div>
+</div>
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-sm-6 ">
+			<div class="container-img">
+				<img src="./assets/beach.png" alt="Snow" style="width:100%;">
+				<div class="bottom-left">	
+					<a href="" class=" f-18 text-white"> Beach</a> 
+				</div>
+				<div class="bottom-left1">
+					<a href="" class=" f-14 text-white ">372 offers</a>
+
+				</div>
+				
+				
+			  </div>
+		</div>
+		<div class="col-sm-6 mbl-fullimg">
+			<div class="container-img">
+				<img src="./assets/culture.png" alt="Snow" style="width:100%;">
+				<div class="bottom-left">
+					<a href="" class=" f-18 text-white"> City</a> <br>
+				</div>
+				<div class="bottom-left1">
+					<a href="" class=" f-14 text-white ">372 offers</a>
+
+				</div>
+				
+			  </div>
+		</div>
+	</div>
+	<div class="row mt-3">
+		<div class="col-sm-6">
+			<div class="container-img">
+				<img src="./assets/city.png" alt="Snow" style="width:100%;">
+				<div class="bottom-left">
+					<a href="" class=" f-18 text-white"> City Break</a> <br>
+				</div>
+				<div class="bottom-left1">
+					<a href="" class=" f-14 text-white ">882 offers</a>
+
+				</div>
+				
+			  </div>
+		</div>
+		<div class="col-sm-6 mbl-fullimg">
+			<div class="container-img">
+				<img src="./assets/wildlife.png" alt="Snow" style="width:100%;">
+				<div class="bottom-left">
+					<a href="" class=" f-18 text-white"> Wildlife & Nature</a> <br>
+				</div>
+				<div class="bottom-left1">
+					<a href="" class=" f-14 text-white ">372 offers</a>
+
+				</div>
+				
+			  </div>
+		</div>
+	</div>
+</div>
+
+<div class="container mt-70">
+	<div class="row mt-5">
+		<div class="col-sm-6">
+			<h2 class="mbl-h3"><strong>	Top culture destinations</strong></h2>	
+		</div>
+		<div class="col-sm-6 text-right my-auto"><p   class="mbl-ptext"><a href="" class="color-link"><strong>View All</strong></a></p></div>
+	</div>
+</div>
+
+<div class="container mt-3">
+	<div id="owl-two" class="owl-carousel owl-theme mt-5">
+		<div class="item border" style="border-radius: 12px;">
+			
+			<img src="./assets/img1.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Maldives</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets//sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+	
+</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img2.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Bali</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img3.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Oslo</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			
+			<img src="./assets/img1.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Maldives</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets//sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+	
+</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img2.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Bali</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img3.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Oslo</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+		</div>
+	</div>
+	
+</div>
+
+<div class="container mt-5">
+	<div class="row">
+		<div class="col-sm-6">
+			<h2 class="mbl-h3"><strong>	Top city break destinations</strong></h2>	
+		</div>
+		<div class="col-sm-6 text-right"><p class="mbl-ptext" ><a class="color-link" href=""><strong>View All</strong></a></p></div>
+	</div>
+</div>
+
+<div class="container mt-3">
+	<div id="owl-three" class="owl-carousel owl-theme mt-5">
+		<div class="item border" style="border-radius: 12px;">
+			
+			<img src="./assets/img1.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Maldives</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets//sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+	
+</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img2.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Bali</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img3.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Oslo</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img4.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Peru</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+			
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img1.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Maldives</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+	
+
+		</div>
+		<div class="item border" style="border-radius: 12px;">
+			<img src="./assets/img3.png" class="img-fluid" />
+			<p class="mt-3 ml-3 f-18"><strong>Oslo</strong><br><span class="f-14  grey-subtext">	02 Jan - 11 Jan </span></p>
+			<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">
+				<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+				<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>
+
+			  </div>
+
+			 	 <div class="d-flex flex-row justify-content-between">
+				<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>$388 return</strong></p>
+				<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" >Book now</button></div>
+				</div>
+
+		</div>
+		
+	</div>
+</div>
+
+
+<div class="container-fluid mt-5  mb-5 " style="background-color: #DBF2FB;height: 465px;">
+	<div class="row">
+		<div class="col-sm-12 text-center ">
+			<h2 class="text-center mbl-h2 mbl-h1" style="margin-top: 90px;"><strong>Subscribe for early access to our last<br>minute cheap sunny holiday deals</strong></h2>
+			<input type="email" name="email" placeholder=" Enter your e-mail address" class="mt-5 pt-3 pb-3 w-530" style="    border: 1px solid lightgrey;
+    border-radius: 100px;" /> <br>
+			<button class="btn  mt-3 w-530 pb-3 pt-3" style="background-color:#F7921E;color: white; border-radius: 100px;">Subscribe</button>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 text-center">
+			<img src="./assets/newsletter1.svg" class="img-fluid1 img-newsletter1" style="margin-top: -108px;" />
+		</div>
+		<div class="col-sm-6 text-center">
+			<img style="margin-top: -108px;" src="./assets/newsletter2.svg" class="img-fluid2 img-newsletter2" />
+		</div>
+	</div>
+</div>
+
+<div class="container" style="margin-top: 70px;">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="./assets/logo_black.svg" class="img-fluid3">
+		</div>
+		<div class="col-sm-6 text-right mbl-getintouch">
+		<p>Get in touch <img src="./assets/instagram.svg" class="img-fluid ml-3" /> <img src="./assets/twitter.svg" class="img-fluid ml-3"></p>
+		</div>
+	</div>
+ </div>
+
+ 
+
+<div class="container mt-3">
+	<div class="row">
+		<div class="col-sm-12">
+			<footer>
+			<div class="footer-copyright text-left py-3"><p>© 2020 The Sun Holidays. All rights reserved.</p>
+  </div>
+
+</footer>
+		</div>
+	</div>
+</div>
+<div class="modal fade "  id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+	<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+	  <div class="modal-content" style="border-radius:25px;">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		  </button>
+		</div>
+		<div class="modal-body text-center">
+		 <img src="./assets/14494-plane-flying 1.png" class="img-fluid w-50  " alt="">
+		 <h4 class="text-center mt-2"><strong>Start packing your luggage</strong></h4>
+		 <p class="f-14 mt-2">We are going to show you recommended <br>	destinations departing from your city.</p>
+			<!-- <p class="f-14 mt-4"> <a href="" class="yellow-link">click here </a> if you are not departing from London</p> -->
+			<p class="f-14 mt-4"> <a href="" class="yellow-link">click here </a> if you want to change your city</p>
+			<p class="f-14 mt-4" > Wait while we fetch data for you...</p>
+		</div>
+	
+	  </div>
+	</div>
+  </div>
+
+
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+	integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+  <script src="./assets/js/owl.carousel.min.js"></script>
+ 
+
+<script>
+
+$(document).ready(function() {
+	
+function formatState (state) {
+  if (!state.id) {
+    return state.text;
+  }
+  var baseUrl = "./assets";
+  var $state = $(
+    '<span class="d-flex flex-row justify-content-between">' + state.text + '<img src="' + baseUrl + '/' +'ic_outline-location-on' + '.svg" class="img-fluid ml-auto " /> </span>'
+  );
+  return $state;
+};
+
+	$('.js-example-basic-multiple').select2({
+		placeholder: "London",
+		templateResult: formatState,
+		width: 'resolve',
+	});
+
+	$('#owl-one').owlCarousel({
+		rtl:false,
+       loop:false,
+    margin:15,
+    nav:true,
+	navText: ["<span class=''><img src='./assets/Group54.svg' class='img-fluid rotate'></span>","<span class=''><img src='./assets/Group54.svg' class='img-fluid'></span>"],
+    responsive:{
+        0:{
+            items:1,
+			stagePadding: 13,
+
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+$('#owl-two').owlCarousel({
+
+    loop:true,
+    margin:15,
+	nav:true,
+	navText: ["<span class=''><img src='./assets/Group54.svg' class='img-fluid rotate'></span>","<span class=''><img src='./assets/Group54.svg' class='img-fluid'></span>"],
+
+    responsive:{
+        0:{
+			items:1,
+			stagePadding: 13,
+
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+$('#owl-three').owlCarousel({
+
+    loop:true,
+    margin:15,
+	nav:true,
+	navText: ["<span class=''><img src='./assets/Group54.svg' class='img-fluid rotate'></span>","<span class=''><img src='./assets/Group54.svg' class='img-fluid'></span>"],
+
+	
+    responsive:{
+        0:{
+			items:1,
+			stagePadding: 13,
+
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+});
+
+</script>
+<script src="./assets/js/datepicker.min.js"></script>
+<script src="./assets/js/datepicker.en.js"></script>
+<script>
+// Initialization
+$('#dater').datepicker();
+// Access instance of plugin
+$('#dater').data('datepicker');
+// Initialization
+$('#dater1').datepicker();
+// Access instance of plugin
+$('#dater1').data('datepicker');
+</script>
+
+<script>
+	var Lat,Lon = 0;
+
+	$(() => {
+		$('#exampleModalCenter').modal('show');
+		 navigator.geolocation.getCurrentPosition((position) => {
+			Lat = position.coords.latitude;
+			Lon = position.coords.longitude;
+
+			$.get('http://localhost:8000/thesunholidays/?Lat=' + Lat + '&Lon=' + Lon).then((response) => {
+
+			var data = response.data;
+			localStorage.setItem('flight_data', JSON.stringify(data));
+			var keys = Object.keys(data);
+
+			Cities = data.Cities;
+
+			(Cities).map((city) => {
+				$('#selecttest').append($('<option>', {value: city, text : city}));
+			});
+
+
+			for (var key = 0; key < keys.length; key++) {
+				if (keys[key] == 'Cities' || keys[key] == 'Currencies')
+					continue;
+				CityData = data[keys[key]];
+				currentCity = CityData[CityData.length - 1];
+
+				if(currentCity.city == null)
+					continue
+
+				cityName = (currentCity.city).split(' ');
+
+				if (cityName.length > 1)
+					cityName = cityName[0] + '-' + cityName[1]
+
+				else
+					cityName = cityName[0]
+
+
+				if (!currentCity.Score == "0") {
+					var NewCordiv = '<div class="item border" style="border-radius: 12px;">\
+						<img src = "./assets/photo/'+ cityName +'.jpg" class="img-fluid" />\
+							<p class="mt-3 ml-3 f-18"><strong>'+currentCity.city+'</strong><br><span class="f-14  grey-subtext"> '+ currentCity.current_date +' - '+ currentCity.end_date +' </span></p>\
+								<div class="d-flex flex-row bd-highlight mb-2  justify-content-center text-center">\
+									<div class=" bd-highlight "><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7 "><p>29 °C</p></div>\
+										<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>30 °C</p></div>\
+											<div class=" bd-highlight"><img src="./assets/rainy-day.png" alt="" class="img-fluid w-75 mlpx-7"><p>28 °C</p></div>\
+												<div class=" bd-highlight"><img src="./assets/sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>29 °C</p></div>\
+													<div class=" bd-highlight"><img src="./assets//sun (1) 3.png" alt="" class="img-fluid w-75 mlpx-7"><p>28 °C</p></div>\
+													</div>\
+													<div class="d-flex flex-row justify-content-between">\
+														<p class="ml-3" style="color: #2D4A7B;"><span class="f-12">from</span><br><strong>'+ CityData[0].price +' return</strong></p>\
+															<div class="my-auto">	<button type="button" class="btn border text-white mr-2 pl-4 pt-2 pb-2 pr-4" style="    background-color: #F7921E; border-radius: 100px;" onclick = Book(this)>Book now</button></div>\</div></div>'
+					$('#owl-one').owlCarousel('add', NewCordiv).owlCarousel('update');
+				}
+			}
+
+			$('#exampleModalCenter').modal('hide');
+
+		}).fail((err) => {
+			console.log(err);
+			alert('failed');
+		});
+	});
+});
+
+	Book = item_ => {
+		var currentCity = (($(item_).closest(".item").find('strong'))[0]).innerHTML;
+		//window.location.href = "Details.html?city=" + currentCity + '&lat=' + Lat + '&lon=' + Lon;
+		window.location.href = "Detail.html?city=" + currentCity;
+	}
+
+	ViewAll = () => {
+		window.location.href = 'ViewAll.html?lat=' + Lat + '&lon=' + Lon;
+	}
+
+</script>
+
+</body>
+
+</html>
