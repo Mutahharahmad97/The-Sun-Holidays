@@ -1,2 +1,4 @@
 # The-Sun-Holidays
- Flight Booking
+ 
+ Run Django Server
+ Open MainPage.html
